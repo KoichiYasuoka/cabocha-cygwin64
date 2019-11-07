@@ -8,7 +8,7 @@ else:
 
 setuptools.setup(
   name="cabocha-cygwin64",
-  version="0.002",
+  version="0.003",
   packages=setuptools.find_packages(),
   data_files=[
     ("local/bin",glob.glob("bin/*")),
@@ -20,5 +20,5 @@ setuptools.setup(
     ("local/lib/cabocha/model",glob.glob("lib/cabocha/model/*"))
   ],
   install_requires=["mecab-cygwin64"],
-  dependency_links=["git+https://github.com/KoichiYasuoka/mecab-cygwin64#egg-mecab-cygwin64"]
+  dependency_links=["git+https://github.com/KoichiYasuoka/mecab-cygwin64#egg=mecab-cygwin64"]
 )
