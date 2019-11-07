@@ -8,7 +8,7 @@ else:
 
 setuptools.setup(
   name="cabocha-cygwin64",
-  version="0.4",
+  version="0.69",
   packages=setuptools.find_packages(),
   data_files=[
     ("local/bin",glob.glob("bin/*")),
