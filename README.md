@@ -14,3 +14,5 @@ Only for Cygwin64 with `python37-pip` and `git`:
 pip3.7 install git+https://github.com/KoichiYasuoka/cabocha-cygwin64
 ```
 
+[mecab-cygwin64](https://github.com/KoichiYasuoka/cygwin64) is automatically installed.
+
