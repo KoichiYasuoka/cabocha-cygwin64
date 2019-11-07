@@ -19,6 +19,5 @@ setuptools.setup(
     ("local/share/man/man1",glob.glob("share/man/man1/*")),
     ("local/lib/cabocha/model",glob.glob("lib/cabocha/model/*"))
   ],
-  install_requires=["mecab-cygwin64"],
-  dependency_links=["git+https://github.com/KoichiYasuoka/mecab-cygwin64#egg=mecab-cygwin64"]
+  install_requires=["mecab-cygwin64@git+https://github.com/KoichiYasuoka/mecab-cygwin64"]
 )
