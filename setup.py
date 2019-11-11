@@ -1,7 +1,7 @@
 import setuptools
 import glob
-import os
-if os.uname().sysname.startswith("CYGWIN") and os.uname().machine=="x86_64":
+import platform
+if platform.system().startswith("CYGWIN") and platform.machine()=="x86_64":
   pass
 else:
   raise OSError("cabocha-cygwin64 only for 64-bit Cygwin")
