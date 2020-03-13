@@ -8,7 +8,7 @@ See [CaboCha page](http://taku910.github.io/cabocha/).
 
 ## Installation
 
-Only for Cygwin64 with `python37-pip` and `git`:
+Only for Cygwin64 with `python37-pip` `git` `gcc-g++`:
 
 ```sh
 pip3.7 install git+https://github.com/KoichiYasuoka/cabocha-cygwin64
